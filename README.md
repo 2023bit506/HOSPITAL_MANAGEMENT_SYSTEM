@@ -1,5 +1,11 @@
 
 # 🏥 Hospital Management System
+# 🏥 Hospital Management System
+
+![GitHub Repo Stars](https://img.shields.io/github/stars/2023bit506/HOSPITAL_MANAGEMENT_SYSTEM?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/2023bit506/HOSPITAL_MANAGEMENT_SYSTEM?style=social)
+![GitHub License](https://img.shields.io/github/license/2023bit506/HOSPITAL_MANAGEMENT_SYSTEM)
+![GitHub last commit](https://img.shields.io/github/last-commit/2023bit506/HOSPITAL_MANAGEMENT_SYSTEM)
 
 A complete **backend system** for managing hospital operations — including patient records, appointments, doctors, and staff — built using **Node.js**, **Express**, and **MongoDB**.
 
