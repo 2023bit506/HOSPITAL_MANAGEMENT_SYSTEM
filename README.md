@@ -1,115 +1,124 @@
+
 # 🏥 Hospital Management System
 
 A complete **backend system** for managing hospital operations — including patient records, appointments, doctors, and staff — built using **Node.js**, **Express**, and **MongoDB**.
 
-> 📌 Built for scalability, modularity, and security. Perfect for clinics, hospitals, and health-tech applications.
+> 📌 Built for scalability, modularity, and security. Ideal for clinics, hospitals, and healthcare platforms.
 
 ---
 
 ## 🚀 Tech Stack
 
-| Technology      | Purpose                         |
-|----------------|----------------------------------|
-| 🧠 Node.js       | Runtime for JavaScript backend   |
-| ⚙️ Express.js    | Framework for API handling       |
-| 🗃️ MongoDB       | NoSQL database                   |
-| 🧾 Mongoose     | ODM to model MongoDB data        |
-| 🛡️ JWT          | User authentication              |
-| 🔐 bcryptjs     | Password encryption              |
-| 🌐 dotenv       | Manage environment variables     |
-| 📮 Postman      | API testing & documentation      |
+| 💻 Technology  | 🔧 Purpose                      |
+|----------------|---------------------------------|
+| 🧠 Node.js      | JavaScript runtime environment |
+| ⚙️ Express.js   | Backend framework              |
+| 🗃️ MongoDB      | NoSQL database                 |
+| 🧾 Mongoose     | ODM to work with MongoDB       |
+| 🛡️ JWT          | Token-based authentication     |
+| 🔐 bcryptjs     | Password hashing               |
+| 🌐 dotenv       | Environment configuration      |
+| 📮 Postman      | API testing                    |
 
 ---
 
 ## 📂 Folder Structure
 
+```
 HOSPITAL_MANAGEMENT_SYSTEM/
 │
-├── controller/ # Business logic handlers
-├── database/ # MongoDB connection setup
-├── middlewares/ # Auth & error-handling middleware
-├── models/ # Mongoose schemas for data
-├── router/ # Route definitions
-├── utils/ # Utility/helper functions
+├── controller/       # Business logic handlers
+├── database/         # MongoDB connection
+├── middlewares/      # Auth & error middleware
+├── models/           # Mongoose schemas
+├── router/           # API route handlers
+├── utils/            # Helper functions
 │
-├── app.js # Main application entry
-├── server.js # Server setup
-├── package.json # Project metadata & dependencies
-├── .gitignore # Git ignore file
-└── README.md # Project documentation
-
-yaml
-Copy
-Edit
+├── app.js            # Entry point
+├── server.js         # Server setup
+├── package.json      # Project metadata
+├── .gitignore        # Ignored files
+└── README.md         # Documentation
+```
 
 ---
 
-## ✅ Key Features
+## ✅ Features
 
-- 👥 **User Registration & Login**
-- 🧑‍⚕️ **Doctor and Patient Management**
-- 📅 **Appointment Scheduling**
-- 🔐 **Secure JWT Authentication**
-- 🔒 **Password Hashing with Bcrypt**
-- 📦 **Modular Codebase Structure**
-- 🧰 **Error Handling and Middleware**
+- 👥 User Registration & Login  
+- 🧑‍⚕️ Doctor and Patient Management  
+- 📅 Appointment Scheduling  
+- 🔐 Secure JWT Authentication  
+- 🔒 Password Hashing with Bcrypt  
+- 📦 Modular Folder Structure  
+- 🧰 Middleware-based Error Handling  
 
 ---
 
-## 🛠️ How to Run the Project Locally
+## 🛠️ How to Run Locally
 
-1. **Clone the Repository**  
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/2023bit506/HOSPITAL_MANAGEMENT_SYSTEM.git
    cd HOSPITAL_MANAGEMENT_SYSTEM
-Install Dependencies
+   ```
 
-bash
-Copy
-Edit
-npm install
-Configure Environment Variables
-Create a .env file in the root folder and add:
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-env
-Copy
-Edit
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-Start the Server
+3. **Set Environment Variables**
+   Create a `.env` file in the root:
+   ```env
+   MONGO_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   ```
 
-bash
-Copy
-Edit
-npm start
-✅ Server is now running at:
-http://localhost:3000 (or your configured port)
+4. **Start the Server**
+   ```bash
+   npm start
+   ```
 
-🔍 Sample API Usage (via Postman)
-Method	Endpoint	Description
-POST	/api/auth/register	Register a new user
-POST	/api/auth/login	User login
-GET	/api/doctors	Get all doctors
-POST	/api/appointments	Book an appointment
+> ✅ Your server will be running at `http://localhost:3000`
 
-🔮 Future Enhancements
-📊 Admin Dashboard
+---
 
-📨 Email & SMS Notifications
+## 🔍 Sample API Endpoints
 
-📱 React Frontend Integration
+| Method | Endpoint              | Description           |
+|--------|-----------------------|-----------------------|
+| POST   | /api/auth/register    | Register a new user   |
+| POST   | /api/auth/login       | User login            |
+| GET    | /api/doctors          | Get doctor list       |
+| POST   | /api/appointments     | Book an appointment   |
 
-📅 Calendar View for Appointments
+---
 
-🧑‍⚕️ Role-based Authorization (Admin/Doctor/Patient)
+## 🔮 Future Enhancements
 
-🙋‍♂️ Author
-👤 GitHub: 2023bit506
+- 📊 Admin Dashboard  
+- 📩 Email & SMS Notifications  
+- 📱 React Frontend Integration  
+- 📅 Calendar for Appointments  
+- 👨‍⚕️ Role-based Access (Admin/Doctor/Patient)
 
-🌐 Portfolio: https://2023bit506.github.io/PORTFOLIO/
+---
 
-💬 Contact: https://www.linkedin.com/in/shubhampawar08
+## 🙋‍♂️ Author
 
-🌟 Show Your Support
-If you like this project, leave a ⭐ on the repo and share it with others!
+- 👤 **GitHub:** [2023bit506](https://github.com/2023bit506)  
+- 🌐 **Portfolio:** [Click Here](https://2023bit506.github.io/PORTFOLIO/)  
+- 💬 **LinkedIn:** [Shubham Pawar](https://www.linkedin.com/in/shubhampawar08)
 
+---
+
+## 🌟 Support This Project
+
+If you found this helpful:
+
+⭐ Star this repo  
+🔁 Share with others  
+🍴 Fork and contribute!
+
+---
