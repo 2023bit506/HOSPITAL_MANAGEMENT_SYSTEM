@@ -1,6 +1,5 @@
 
-# 🏥 Hospital Management System
-# 🏥 Hospital Management System
+# 🏥 HealthCare
 
 ![GitHub Repo Stars](https://img.shields.io/github/stars/2023bit506/HOSPITAL_MANAGEMENT_SYSTEM?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/2023bit506/HOSPITAL_MANAGEMENT_SYSTEM?style=social)
